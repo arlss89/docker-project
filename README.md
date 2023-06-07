@@ -11,7 +11,7 @@ To install docker follow steps in according to your system: https://docs.docker.
 To deploy this website using Docker and serve the `index.html` file, you can follow these steps:
 
 1. Build the Docker image:
-   Open a terminal or command prompt, navigate to the directory containing the Dockerfile and `index.html`, and run the following command to build the Docker image:
+   Open a terminal or command prompt, navigate to the directory containing the Dockerfile and `index.html` (website-docker/src), and run the following command to build the Docker image:
 
    ```bash
    docker build -t website-docker .
